@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+
+<html lang="es-es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ayuda en Linea</title>
+    <link href="estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la ayuda en linea de CrackenSports</h1>
+
+    </header>
+
+    <p>Para acceder a la ayuda de las funcionalidades del sistema haga click en los siguientes enlaces</p>
+    <div id="container">
+        <div id="lateral">
+            <ol>
+                <li><a href="#op1">Acceso al sistema</a></li>
+                <li><a href="#op2">Gestionar Reservas</a></li>
+					<ul style="list-style-type:lower-alpha">
+						<li><a href="#op2.1">Generar Reserva</a></li>
+						<li><a href="#op2.2">Modificar Reserva</a></li>
+					</ul>
+                <li><a href="#op3">Gestionar Agenda Diaria</a></li>
+                <li><a href="#op4">Gestionar Socios</a></li>
+					<ul style="list-style-type:lower-alpha">
+						<li><a href="#op4.1">Crear Socio</a></li>
+						<li><a href="#op4.2">Modificar Socio</a></li>
+					</ul>
+                <li><a href="#op5">Gestionar Pagos</a></li>
+                <li><a href="#op6">Gestionar Clientes</a></li>
+					<ul style="list-style-type:lower-alpha">
+						<li><a href="#op6.1">Crear Cliente</a></li>
+						<li><a href="#op6.2">Modificar Cliente</a></li>
+					</ul>
+                <li><a href="#op7">Emitir Comodato</a></li> 
+                <li><a href="#op8">Ver Equipos Entregados</a></li>
+                <li><a href="#op9">Ver Equipos a Retirar</a></li>
+                <li><a href="#op10">Asignar Fecha de Retiro</a></li>
+                <li><a href="#op11">Controlar Devoluciones</a></li>
+                <li><a href="#op12">Ver Avisos de Contaduria</a></li>
+                <li><a href="#op13">Cambio de Idioma</a></li>
+				
+
+            </ol>
+
+
+        </div>
+
+
+        <div id="op1"  class="divparte">
+
+            <h2>Acceso al Sistema</h2>
+            <p>
+                Para acceder al sistema es necesario tener registrado un usuario activo.
+            </p>
+            <p>Deberá ingresar su usuario y contraseña para acceder al sistema.</p>
+            <img src="img/iniciarSesion1.jpg" alt="Alternate Text" style="height: 210px; width: 500px;" />
+            <p>Listo, se ha iniciado sesion.</p>
+			
+			<img src="img/menuprincipal1.jpg" alt="Alternate Text" style="height: 350px; width: 550px;" />
+        </div>
+
+        <div id="op2" class="divparte">
+            <h2>Gestionar Reservas</h2>
+            <p>Esta opción nos permitirá Generar y modificar Reservas.</p>
+            <p>En el menu "Recepción", haga click sobre "Generar Reserva"</p>
+            <img src="img/menu-gestionarreserva.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con dos opciones principales: Generar Reserva y Modificar Reserva</p>
+            <img src="img/gestionarreserva1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+			<div id="op2.1" class="divparte">
+				<h3>Generar Reserva</h3>
+				<img src="img/generarreserva1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Generar una Reserva debemos completar los siguientes campos:</p>
+				<dl>
+					<dt><li>Seleccionar Cancha - Obligatorio</li></dt>
+					</br>
+					<dd><img src="img/gr-seleccionar-cancha.jpg" alt="Alternate Text" style="height: 150px; width: 210px;" /></dd>
+					</br>
+					<dt><li>Agregar Accesorios - Opcional</li></dt>
+					</br>
+					<dd><img src="img/gr-agregar-accesorios.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 300px;" /></dd>
+					</br>
+					<dt><li>Ingresar Cliente - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Para buscar un cliente se debe ingresar el Número de Documento y pulsar la Lupa</i></dd>
+					<dd><img src="img/gr-agregar-cliente.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 350px;" /></dd>
+					<dd><i>- Si el cliente no existe lo puede dar de alta seleccionando <a href="#op6.1">"Crear Cliente"</a></i></dd>
+					<dd><img src="img/gr-agregar-cliente-inexistente.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 350px;" /></dd>
+					</br>
+					<dt><li>Seleccionar Turno - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Para seleccionar un turno solo basta por pulsarlo o bien se puede realiar la búsqueda por fecha</i></dd>
+					<dd><img src="img/gr-seleccionar-turno.jpg" alt="Alternate Text" style="height: 300px; width: 750px;" /></dd>
+					<dd><i>- Para buscar se debe seleccionar la fecha deseada en el calendario y pulsar la Lupa</i></dd>
+					<dd><img src="img/gr-seleccionar-turno-buscar.jpg" alt="Alternate Text" style="height: 300px; width: 750px;" /></dd>
+					<dd><i>- Para borrar los datos de búsqueda se debe pulsar la Escobilla</i></dd>
+					<dd><img src="img/gr-seleccionar-turno-limpiar.jpg" alt="Alternate Text" style="height: 300px; width: 750px;" /></dd>
+					</br>
+					<dt><li>Confirmar Pago - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Para poder confirmar la reserva se debe confirmar el pago</i></dd>
+					<dd><img src="img/gr-confirmar-pago.jpg" alt="Alternate Text" style="height: 100px; width: 200px;" /></dd>
+				<dl>
+				<p>Previo a la confirmación se podrán visualizar los datos ingresados y cargados:</p>
+				<dd><img src="img/gr-confirmacion-datosprevios.jpg" alt="Alternate Text" style="height: 250px; width: 750px" /></dd>
+				<p>Finalmente se podrá ver el mensaje de reserva efectuada correctamente:</p>
+				<dd><img src="img/gr-reserva-finalizada.jpg" alt="Alternate Text" style="height: 500px; width: 600px"/></dd>
+			</div>
+			<div id="op2.2" class="divparte">
+				<h3>Modificar Reserva</h3>
+				<img src="img/modificarreserva1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Modificar una Reserva debemos completar los siguientes campos:</p>
+				<dl>
+					<dt><li>Ingresar N° Documento Cliente - Obligatorio</li></dt>
+					</br>
+					<dd><img src="img/mr-buscar-cliente.jpg" alt="Alternate Text" style="height: 150px; width: 350px;" /></dd>
+					</br>
+					<dt><li>Agregar o Quitar Accesorios - Opcional</li></dt>
+					</br>
+					<dd><img src="img/gr-agregar-accesorios.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 300px;" /></dd>
+					</br>
+					<dt><li>Seleccionar la reserva a modificar o cancelar - Obligatorio</li></dt>
+					</br>
+					<dd><img src="img/mr-turno.jpg" alt="Alternate Text" style="height: 250px; width: 600px;" /></dd
+					</br>
+					<dt><li>Modificar o Cancelar Reserva - Obligatorio</li></dt>
+					</br>
+					<dd><img src="img/mr-modificar-cancelar-reserva.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 250px;" /></dd>
+					<dd><i>- Si selecciona Modificar Reserva se almacenaran los cambios realizados sobre la reserva seleccionada</i></dd>
+					<dd><i>- Si selecciona Cancelar Reserva se cancelará  la reserva seleccionada</i></dd>
+				<dl>
+				<p>Finalmente una vez completado los campos podremos Confirmar la operación</p>
+				<dd><img src="img/mr-confirmar.jpg" alt="Alternate Text" style="height: 250px; width: 650px;" /></dd>
+				<p>Visualizaremos el mensaje de operación realizada con éxito</p>
+				<dd><img src="img/mr-confirmar-ok.jpg" alt="Alternate Text" style="height: 500px; width: 600px" /></dd>
+			</div>
+        </div>
+
+
+        <div id="op3"  class="divparte">
+            <h2>Gestionar Agenda Diaria</h2>
+            <p>Esta opción nos permitirá Confirmar y Habilitar una cancha reservada, generando su respectivo Alquiler.</p>
+            <p>En el menu "Recepción", haga click sobre "Agenda Diaria"</p>
+            <img src="img/agendadiaria-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con las reservas efectuadas para el día de la fecha</p>
+            <img src="img/agendadiaria-menu1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+			<p>Para Confirmar un Alquiler debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar una reserva - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Se puede realiar la búsqueda de reservas ingresando N° Documento de Cliente y seleccionando la Lupa</i></dd>
+					<dd><i>- Para borrar los criterios de búsqueda se debe pulsar la Escobilla</i></dd>
+					</br>
+					<dd><img src="img/ad-seleccionar-reserva.jpg" alt="Alternate Text" style="height: 300px; width: 700px;" /></dd>
+					</br>
+					<dt><li>Agregar o Quitar Accesorios - Opcional</li></dt>
+					</br>
+					<dd><img src="img/gr-agregar-accesorios.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 300px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/ad-confirmar-operacion.jpg" alt="Alternate Text" style="height: 250px; width: 600px;" /></dd
+					</br>
+					<dt><li>Modificar o Cancelar Reserva - Obligatorio</li></dt>
+					</br>
+					<dd><img src="img/mr-modificar-cancelar-reserva.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 250px;" /></dd>
+					<dd><i>- Si selecciona Modificar Reserva se almacenaran los cambios realizados sobre la reserva seleccionada</i></dd>
+					<dd><i>- Si selecciona Cancelar Reserva se cancelará  la reserva seleccionada</i></dd>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y el cambio del estado en la reserva</p>
+            <img src="img/ad-reservaconfirmada.jpg" alt="Alternate Text" style="height: 550px; width: 650px;" />	
+        </div>
+
+        <div id="op4"  class="divparte">
+            <h2>Gestionar Socios</h2>
+            <p>Esta opción nos permitirá Asociar y Modificar condiciones de Socio de los Clientes.</p>
+            <p>En el menu "Socios", haga click sobre "Gestión de Socios"</p>
+            <img src="img/gestionar-socios-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con dos opciones principales: Crear Socio y Modificar Socio </p>
+            <img src="img/gestionar-socios-menu1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+			<div id="op4.1" class="divparte">
+			<h3>Crear Socio</h3>
+				<img src="img/gs-crear-socio-menu.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Crear un Socio debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar un Cliente - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Si el cliente no existe lo puede dar de alta seleccionando <a href="#op6.1">"Crear Cliente"</a> </i></dd>
+					<dd><i>- Se puede realiar la búsqueda de Cliente ingresando N° Documento de Cliente y seleccionando "Buscar"</i></dd>
+					<dd><i>- Para borrar los criterios de búsqueda se debe seleccionar "Limpiar"</i></dd>
+					</br>
+					<dd><img src="img/gs-seleccion-cliente.jpg" alt="Alternate Text" style="height: 300px; width: 700px;" /></dd>
+					</br>
+					<dt><li>Asignar Servicios - Opcional</li></dt>
+					</br>
+					<dd><i>- Para asignar un servicio, debemos seleccionar el servicio de la columna izquierda y presionar el boton con la flecha "->"</i></dd>
+					<dd><i>- Para desasignar un servicio, debemos seleccionar el servicio de la columna derecha y presionar el boton con la flecha "<-"</i></dd>
+					</br>
+					<dd><img src="img/gs-asignar-servicios.jpg".jpg" alt="Alternate Text" style="height: 350px; width: 700px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gs-confirmar-operacion.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del socio (que aún no se encuentra activo)</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+
+			<p>Para que el socio se encuentre en estado activo debe pagar la cuota, esto se puede realizar pulsando <a href="#op5">"Ir a Pagar"</a></p>
+            <img src="img/gs-ir-a-pagar.jpg" alt="Alternate Text" style="height: 200px; width: 250px;" />			
+	
+			</div>
+			<div id="op4.2" class="divparte">
+				<h3>Modificar Socio</h3>
+				<img src="img/gs-modificar-socio.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Modificar un Socio debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar un Socio - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Si el Socio no existe lo puede dar de alta seleccionando Crear Socio</i></dd>
+					<dd><i>- Se puede realiar la búsqueda de Socio ingresando N° Documento o N° de Socio y seleccionando "Buscar"</i></dd>
+					<dd><i>- Para borrar los criterios de búsqueda se debe seleccionar "Limpiar"</i></dd>
+					</br>
+					<dd><img src="img/gs-seleccion-socio.jpg" alt="Alternate Text" style="height: 300px; width: 750px;" /></dd>
+					</br>
+					<dt><li>Asignar Servicios - Opcional</li></dt>
+					</br>
+					<dd><i>- Para asignar un servicio, debemos seleccionar el servicio de la columna izquierda y presionar el boton con la flecha "->"</i></dd>
+					<dd><i>- Para desasignar un servicio, debemos seleccionar el servicio de la columna derecha y presionar el boton con la flecha "<-"</i></dd>
+					</br>
+					<dd><img src="img/gs-asignar-servicios.jpg".jpg" alt="Alternate Text" style="height: 350px; width: 700px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gs-modificar-confirmar-operacion.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la modificación del socio</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+
+			<p>Para que el socio se encuentre en estado activo debe pagar la cuota, esto se puede realizar pulsando <a href="#op5">"Ir a Pagar"</a> </p>
+            <img src="img/gs-ir-a-pagar.jpg" alt="Alternate Text" style="height: 200px; width: 250px;" />	
+			</div>
+
+        </div>
+
+        <div id="op5"  class="divparte">
+            <h2>Gestionar Pagos</h2>
+            <p>Esta opción nos permitirá registrar los pagos de cuota de los Socios</p>
+            <p>En el menu "Socios", haga click sobre "Gestión de Pagos"</p>
+            <img src="img/gs-gestionpagos-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con la información necesaria para registrar el pago de cuota</p>
+            <img src="img/gs-gestionpagos-menu1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+			<p>Para Confirmar un Pago de Cuota debemos seguir las siguientes instrucciones:</p>
+			<dl>
+				<dt><li>Seleccionar un Socio - Obligatorio</li></dt>
+				</br>
+				<dd><i>- Se puede realiar la búsqueda de Socio ingresando N° Documento o N° de Socio y seleccionando "Buscar"</i></dd>
+				<dd><i>- Para borrar los criterios de búsqueda se debe seleccionar "Limpiar"</i></dd>
+				</br>
+				<dd><img src="img/gs-seleccion-socio.jpg" alt="Alternate Text" style="height: 150; width: 750px;" /></dd>
+				</br>
+				<dt><li>Servicios Contratados - Solo lectura, Información</li></dt>
+				</br>
+				<dd><img src="img/gs-servicios-contratados.jpg".jpg" alt="Alternate Text" style="height: 150px; width: 200px;" /></dd>
+				</br>
+				<dt><li>Tipo Cuota - Obligatorio</li></dt>
+				</br>
+				<dd><i>- La cuota mensual actualiza el precio de socio y/o servicios contratados por un mes a partir de la fecha actual</i></dd>
+				<dd><i>- La cuota anual actualiza el precio de socio y/o servicios contratados por un año a partir de la fecha actual</i></dd>
+				<dd><i>- Si el socio se encuentra activo se extenderá su cuota en base a la fecha actual y si existen diferencias de servicios debera abonarlas en el momento</i></dd>
+				</br>
+				<dd><img src="img/gs-pago-tipocuota.jpg" alt="Alternate Text" style="height: 150px; width: 250px;" /></dd>
+				</br>
+				<dt><li>Confirmación de Pago - Obligatorio</li></dt>
+				</br>
+				<dd><img src="img/gs-pago-confirmar-pago.jpg" alt="Alternate Text" style="height: 150px; width: 250px;" /></dd>
+				</br>
+				<dt><li>Confirmar Operación</li></dt>
+				</br>
+				<dd><img src="img/gs-pagos-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+				</br>
+				
+				</br>
+			</dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y el pago realizado correctamente.</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+
+			<p>Si el socio desea modificar sus servicios actuales podremos seleccionar la opción "Modificar Servicios Socios" que nos lleva a "Gestionar Socios" (visto anteriormente)</p>
+            <img src="img/gs-pagos-modificar-servicios.jpg" alt="Alternate Text" style="height: 450px; width: 550px;"  />	
+		</div>
+       
+
+        <div id="op6" class="divparte">
+
+            <h2>Gestionar Clientes</h2>
+            <p>Esta opción nos permitirá Crear y Modificar Clientes.</p>
+            <p>En el menu "Maestros", haga click sobre "Clientes", "Gestionar Clientes"</p>
+            <img src="img/m-gestionarcliente-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con dos opciones principales: Crear Cliente y Modificar Cliente </p>
+            <img src="img/m-gestionarcliente-menu1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+			<div id="op6.1" class="divparte">
+			<h3>Crear Cliente</h3>
+				<img src="img/gc-crear-cliente.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Crear un Cliente debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Ingresar los datos solicitados</li></dt>
+					</br>
+					<dd><i>- Número de Documento (Obligatorio)</i></dd>
+					<dd><i>- Nombre (Obligatorio)</i></dd>
+					<dd><i>- Apellido (Obligatorio)</i></dd>
+					<dd><i>- Teléfono (Obligatorio)</i></dd>
+					<dd><i>- Teléfono Alternativo (Opcional)</i></dd>
+					<dd><i>- Email (Obligatorio)</i></dd>
+					</br>
+					<dd><img src="img/gc-crear-datos.jpg" alt="Alternate Text" style="height: 150px; width: 600px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gc-crear-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del Cliente</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+			</div>
+			<div id="op6.2" class="divparte">
+			<h3>Modificar Cliente</h3>
+				<img src="img/gc-modificar-cliente.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Modificar un Cliente debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar un Cliente - Obligatorio</li></dt>
+					</br>
+					<dd><i>- Si el cliente no existe lo puede dar de alta seleccionando <a href="#op6.1">"Crear Cliente"</a> </i></dd>
+					<dd><i>- Se puede realiar la búsqueda de Cliente ingresando N° Documento de Cliente y seleccionando "Buscar"</i></dd>
+					<dd><i>- Para borrar los criterios de búsqueda se debe seleccionar "Limpiar"</i></dd>
+					</br>
+					<dd><img src="img/gc-modificar-seleccionar-cliente.jpg" alt="Alternate Text" style="height: 200px; width: 700px;" /></dd>
+					</br>
+					<dt><li>Los datos disponibles para modificar son los siguientes: </li></dt>
+					</br>
+					<dd><i>- Número de Documento</i></dd>
+					<dd><i>- Nombre</i></dd>
+					<dd><i>- Apellido</i></dd>
+					<dd><i>- Teléfono</i></dd>
+					<dd><i>- Teléfono Alternativo</i></dd>
+					<dd><i>- Email</i></dd>
+					</br>
+					<dd><img src="img/gc-modificar-datos.jpg" alt="Alternate Text" style="height: 150px; width: 600px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gs-confirmar-operacion.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del Cliente</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+			</div>
+        </div>
+
+        <div id="op7" class="divparte">
+            <h2>Emitir Comodato</h2>
+            <p>Puede emitir el comodato legal del equipo si usted tiene permisos de Legales, para ello haga click en el botón "Gestión Legal" 
+            y luego haga click en "Emitir Comodato"</p>
+            <img src="img/comodato1.jpg" alt="Alternate Text" />
+            <p>Se abrirá un formulario como el siguiente: </p>
+            <img src="img/comodato2.jpg" alt="Alternate Text" />
+            <p>En el formulario aparecen las solicitudes que ya estan configuradas y listas para ser enviadas mediavez tengan el comodato legal, que representa el ok de Legales para enviar el equipo.</p>
+            <p>Al hacer click en "Autorizar Prestamo", se genera el comodato legal, que usted podrá imprimir para que sea firmado por el empleado al recibir el equipo.</p>
+            <img src="img/comodato3.jpg" alt="Alternate Text" />
+
+
+        </div>
+
+        <div id="op8" class="divparte">
+            <h2>Equipos Entregados</h2>
+            <p>Esta funcionalidad sirve para ver los equipos que están listos para entregar y marcarlos como entregados
+            cuando ya han sido entregados al empleado</p>
+            <p>Para ello vaya a la opción "Correo" dentro del menu inicial y luego en la opcion "Equipos Entregados":</p>
+            <img src="img/entregados1.jpg" alt="Alternate Text" />
+            <p>Ahora, en la ventana que se abre, va a observar los equipos para entregar y entregados.</p>
+            <p>Puede seleccionar una de las solicitudes y luego hacer click en el botón "Marcar como Entregada"</p>
+            <img src="img/entregados2.jpg" alt="Alternate Text" />
+            <p>Ahora ya la solicitud ha sido marcada en el sistema como entregada.</p>
+
+        </div>
+
+        <div id="op9" class="divparte">
+            <h2>Equipos a Retirar</h2>
+            <p>En esta parte, usted podrá ver los equipos que están listos para ser retirados del domicilio del empleado
+            y marcarlos como retirados cuando ya se hizo el movimiento. Para ello usted debe tener permisos de Correo 
+            dentro del sistema.</p>
+            <p>Para acceder haga click en el boton "Correo" del menu principal y luego haga click en "Equipos a Retirar"</p>
+            <img src="img/aretirar.jpg" alt="Alternate Text" />
+            <p>En la ventana que aparece, puede seleccionar un Equipo a retirar y luego hacer click en "Marcar como Retirado"</p>
+            <p>Entonces el equpo aparece como Retirado.</p>
+            <img src="img/aretirar2.jpg" alt="Alternate Text" />
+        </div>
+
+
+        <div id="op10" class="divparte">
+            <h2>Asignar Fecha de Retiro de Equipo</h2>
+            <p>Con esta funcionalidad usted podrá como usuario de Correo Interno, agendar una fecha para ir a retirar el equipo del domicilio
+            del empleado, para ello digígase a la opción "Fechar Retiro de Equipo" que se encuentra dentro del menú "Correo".</p>
+            <img src="img/fechar1.jpg" alt="Alternate Text" />
+
+            <p>Es posible que antes de iniciar el formulario respectivo, aparezca un aviso como este: </p>
+            <img src="img/fechar2.jpg" alt="Alternate Text" />
+            <p>Esto sucede por que existen devoluciones con fecha anterior a la actual, entonces el sitema elabora avisos dirigidos a usted
+            para avisarle que ya se vencio la fecha de ir a retirar un equipo.</p>
+            <p>Para ver los avisos haga click en "Si", de lo contrario haga click en "No" y podrá ver los avisos la próxima vez que 
+            quiera fechar las devoluciones.</p>
+            <p>En caso de que quiera ver los avisos, saldrá la siguiente ventana en la cual podrá hacer click en "Limpiar Avisos" para vaciar la lista de avisos.</p>
+            <img src="img/fechar3.jpg" alt="Alternate Text" />
+
+            <p>Para fechar un retiro, en el formulario "Fechar Devoluciones" podrá elegir la devolución que desea fechar, luego elige la fecha y haga click en "Aplicar".</p>
+            <img src="img/fechar4.jpg" alt="Alternate Text" />
+
+
+        </div>
+
+
+        <div id="op11" class="divparte">
+            <h2>Controlar Devoluciones</h2>
+            <p>Esta parte es para controlar las devoluciones recibidas en deposito informático, al recibir el equipo por parte de correo, usted debe
+            recibir también la orden de retiro, esta es necesaria para conocer el numero de orden a ingresar en el sistema y 
+            los codigos de inventario de los elementos recibidos.</p>
+            <p>Puede hacer click en la Opcion "Controlar Devolucion" del menú "Deposito Informatico".</p>
+            <img src="img/controlar1.jpg" alt="Alternate Text" />
+            <p>Se abrirá un formulario donde tendrá que ingresar el numero de orden de la devolución que aparece en el documento recibido.</p>
+            <img src="img/controlar2.jpg" alt="Alternate Text" />
+            <p>Verá que se cargan los datos de la solicitud inicial de la persona, ahora tendrá que ingresar los elementos recibidos, 
+            para ello ingrese el codigo de inventario del primer elemento en la casilla de texto que dice C.I. y luego seleccione el estado
+            en el que está recibiendo el elemento.</p>
+            <img src="img/controlar3.jpg" alt="Alternate Text" />
+            <p>Observe que se van agregando los elementos en el listado de abajo. Siga asi con los demás elementos recibidos</p>
+            <p>Al finalizar, haga click en el boton "Hacer Control"</p>
+            <img src="img/controlar4.jpg" alt="Alternate Text" />
+            <p>El sistema le notificará si están los elementos completos, en el caso de no estarlo, se generará un 
+            aviso para correo interno solicitando que se acuda al domicilo del empleado a retirar lo faltante.</p>
+            <p>Luego el sistema le indicará si el estado de alguno de los equipos difiere del estado en el que 
+            fueron entregados, de ser así, se generará un aviso para Contaduría, indicando que se debe reclamar el seguro del elemento.</p>
+
+        </div>
+
+        <div id="op12" class="divparte">
+            <h2>Ver Avisos</h2>
+            <p>Se necesita tener accesos de Contaduría para poder ver los avisos.</p>
+            <p>Para ver los avisos haga click en la opcion "Ver Avisos" del menú "Contaduría"</p>
+            <img src="img/avisos1.jpg" alt="Alternate Text" />
+            <p>La ventana que se abre contiene los avisos, para eliminarlos simplemente haga click en "Limpiar Avisos"</p>
+            <img src="img/avisos2.jpg" alt="Ventana Avisos" />
+
+            <p>Listo, los avisos han sido limpiados.</p>
+
+        </div>
+
+
+        <div id="op13" class="divparte">
+            <h2>Cambiar Idioma</h2>
+            <p>Esta funcionalidad permite cambiar el idioma del sistema, para ello digirase a la opción "Cambiar Idioma", del menú "Idiomas"</p>
+            <img src="img/idiomas1.jpg" alt="Alternate Text" />
+            <p>Se abrirá una ventana con los idiomas disponibles, seleccione el idioma deseado de los disponibles en el sistema y luego haga click en "Aplicar".</p>
+            <img src="img/idiomas2.jpg" alt="Alternate Text" />
+            <p>Listo, verá como la interfaz cambia al idioma seleccionado.</p>
+        </div>
+
+    </div>
+</body>
+</html>
