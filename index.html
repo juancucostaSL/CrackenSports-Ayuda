@@ -34,15 +34,19 @@
 						<li><a href="#op6.1">Crear Cliente</a></li>
 						<li><a href="#op6.2">Modificar Cliente</a></li>
 					</ul>
-                <li><a href="#op7">Emitir Comodato</a></li> 
-                <li><a href="#op8">Ver Equipos Entregados</a></li>
-                <li><a href="#op9">Ver Equipos a Retirar</a></li>
-                <li><a href="#op10">Asignar Fecha de Retiro</a></li>
-                <li><a href="#op11">Controlar Devoluciones</a></li>
-                <li><a href="#op12">Ver Avisos de Contaduria</a></li>
-                <li><a href="#op13">Cambio de Idioma</a></li>
-				
-
+				<li><a href="#op7">Gestionar Canchas</a></li>
+					<ul style="list-style-type:lower-alpha">
+						<li><a href="#op7.1">Crear Cancha</a></li>
+						<li><a href="#op7.2">Modificar Cancha</a></li>
+					</ul>
+                <li><a href="#op8">Gestionar Servicios</a></li>
+					<ul style="list-style-type:lower-alpha">
+						<li><a href="#op8.1">Crear Servicio</a></li>
+						<li><a href="#op8.2">Modificar Servicio</a></li>
+					</ul>
+                <li><a href="#op9">Cambiar Contraseña</a></li>
+                <li><a href="#op10">Cambiar Idioma</a></li>
+                <li><a href="#op11">Cerrar Sesión</a></li>
             </ol>
 
 
@@ -354,117 +358,172 @@
 					<dd><img src="img/gs-confirmar-operacion.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
 					</br>
 				<dl>
-			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del Cliente</p>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la modificación del Cliente</p>
             <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
 			</div>
         </div>
 
         <div id="op7" class="divparte">
-            <h2>Emitir Comodato</h2>
-            <p>Puede emitir el comodato legal del equipo si usted tiene permisos de Legales, para ello haga click en el botón "Gestión Legal" 
-            y luego haga click en "Emitir Comodato"</p>
-            <img src="img/comodato1.jpg" alt="Alternate Text" />
-            <p>Se abrirá un formulario como el siguiente: </p>
-            <img src="img/comodato2.jpg" alt="Alternate Text" />
-            <p>En el formulario aparecen las solicitudes que ya estan configuradas y listas para ser enviadas mediavez tengan el comodato legal, que representa el ok de Legales para enviar el equipo.</p>
-            <p>Al hacer click en "Autorizar Prestamo", se genera el comodato legal, que usted podrá imprimir para que sea firmado por el empleado al recibir el equipo.</p>
-            <img src="img/comodato3.jpg" alt="Alternate Text" />
-
+            <h2>Gestionar Canchas</h2>
+            <p>Esta opción nos permitirá Crear y Modificar Canchas.</p>
+            <p>En el menu "Maestros", haga click sobre "Gestion de Canchas"</p>
+            <img src="img/gcan-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con dos opciones principales: Crear Cancha y Modificar Cancha </p>
+            <img src="img/gcan-menu1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+		
+		<div id="op7.1" class="divparte">
+			<h3>Crear Cancha</h3>
+				<img src="img/gcan-crear-menu.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Crear una Cancha debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar tipo de cancha</li></dt>
+					<dd><img src="img/gcan-seleccionar-cancha.jpg" alt="Alternate Text" style="height: 100px; width: 500px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gcan-crear-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación de la Cancha</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+		</div>
+		
+		<div id="op7.2" class="divparte">
+			<h3>Modificar Cancha</h3>
+				<img src="img/gcan-modificar-menu.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Crear una Cancha debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar tipo de cancha</li></dt>
+					<dd><img src="img/gcan-seleccionar-cancha.jpg" alt="Alternate Text" style="height: 100px; width: 500px;" /></dd>
+					</br>
+					<dt><li>Ingresar nuevo precio</li></dt>
+					<dd><img src="img/gcan-modificar-precio.jpg" alt="Alternate Text" style="height: 60px; width: 400px;" /></dd>
+					</br>			
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gcan-modificar-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la modificación de la Cancha</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+		</div>
 
         </div>
 
         <div id="op8" class="divparte">
-            <h2>Equipos Entregados</h2>
-            <p>Esta funcionalidad sirve para ver los equipos que están listos para entregar y marcarlos como entregados
-            cuando ya han sido entregados al empleado</p>
-            <p>Para ello vaya a la opción "Correo" dentro del menu inicial y luego en la opcion "Equipos Entregados":</p>
-            <img src="img/entregados1.jpg" alt="Alternate Text" />
-            <p>Ahora, en la ventana que se abre, va a observar los equipos para entregar y entregados.</p>
-            <p>Puede seleccionar una de las solicitudes y luego hacer click en el botón "Marcar como Entregada"</p>
-            <img src="img/entregados2.jpg" alt="Alternate Text" />
-            <p>Ahora ya la solicitud ha sido marcada en el sistema como entregada.</p>
+            <h2>Gestionar Servicios</h2>
+            <p>Esta opción nos permitirá Crear y Modificar Servicios.</p>
+            <p>En el menu "Maestros", haga click sobre "Gestion de Servicios"</p>
+            <img src="img/gser-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con dos opciones principales: Crear Servicio y Modificar Servicio </p>
+            <img src="img/gser-menu1.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+			<div id="op8.1" class="divparte">
+				<h3>Crear Servicio</h3>
+					<img src="img/gser-crear-menu.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+					<p>Para Crear un Servicio debemos ingresar los siguientes datos:</p>
+					<dl>
+						</br>
+						<dd><i>- Nombre del Servicio - Obligatorio</i></dd>
+						<dd><i>- Precio Mensual - Obligatorio</i></dd>
+						</br>
+						<dd><img src="img/gser-crear-datos.jpg" alt="Alternate Text" style="height:150px; width: 500px;" /></dd>
+						</br>
+						<dt><li>Confirmar Operación</li></dt>
+						</br>
+						<dd><img src="img/gser-crear-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+						</br>
+					<dl>
+				<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del Servicio</p>
+				<img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+			</div>
+		
+		<div id="op7.2" class="divparte">
+			<h3>Modificar Servicio</h3>
+				<img src="img/gser-modificar-menu.jpg" alt="Alternate Text" style="height: 450px; width: 550px;" />
+				<p>Para Modificar un servicio debemos seguir las siguientes instrucciones:</p>
+				<dl>
+					<dt><li>Seleccionar servicio:</li></dt>
+					<dd><img src="img/gser-modificar-seleccionar-servicio.jpg" alt="Alternate Text" style="height: 200px; width: 600px;" /></dd>
+					</br>
+					<dt><li>Modificar los datos deseados:</li></dt>
+					</br>
+						<dd><i>- Nombre del Servicio</i></dd>
+						<dd><i>- Precio Mensual</i></dd>
+					</br>
+					<dd><img src="img/gser-modificar-datos.jpg" alt="Alternate Text" style="height:150px; width: 500px;" /></dd>
+					</br>
+					<dt><li>Confirmar Operación</li></dt>
+					</br>
+					<dd><img src="img/gser-modificar-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+					</br>
+				<dl>
+			<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del Servicio</p>
+            <img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
+		</div>
 
         </div>
 
         <div id="op9" class="divparte">
-            <h2>Equipos a Retirar</h2>
-            <p>En esta parte, usted podrá ver los equipos que están listos para ser retirados del domicilio del empleado
-            y marcarlos como retirados cuando ya se hizo el movimiento. Para ello usted debe tener permisos de Correo 
-            dentro del sistema.</p>
-            <p>Para acceder haga click en el boton "Correo" del menu principal y luego haga click en "Equipos a Retirar"</p>
-            <img src="img/aretirar.jpg" alt="Alternate Text" />
-            <p>En la ventana que aparece, puede seleccionar un Equipo a retirar y luego hacer click en "Marcar como Retirado"</p>
-            <p>Entonces el equpo aparece como Retirado.</p>
-            <img src="img/aretirar2.jpg" alt="Alternate Text" />
+            <h2>Cambiar Contraseña</h2>
+            <p>Esta funcionalidad permite cambiar la contraseña del usuario logueado, para ello digirase a la opción "Cambiar Contraseña", del menú "Usuario"</p>
+            <img src="img/psw-menu.jpg" alt="Alternate Text" />
+            <p>Se desplegará la siguiente ventana con los datos necesarios a igresar para el cambio correcto de la contraseña. </p>
+			<img src="img/psw-menu1.jpg" alt="Alternate Text" />
+			<p>Para cambiar la contraseña debemos ingresar los siguientes datos:</p>
+					<dl>
+						</br>
+						<dd><i>- Contraseña Actual</i></dd>
+						<dd><i>- Nueva Contraseña</i></dd>
+						<dd><i>- Repetir la Nueva Contraseña (debe coincidir con la ingresada en el paso anterior)</i></dd>
+						</br>
+						<dd><img src="img/psw-datos.jpg" alt="Alternate Text" style="height:300px; width: 300px;" /></dd>
+						</br>
+						<dt><li>Confirmar Operación</li></dt>
+						</br>
+						<dd><img src="img/psw-confirmar.jpg" alt="Alternate Text" style="height:500px; width: 600px;" /></dd>
+						</br>
+					<dl>
+					<p>Finalmente veremos el mensaje de éxito de la operación realizada y la creación del Servicio</p>
+					<img src="img/gs-operacion-exitosa.jpg" alt="Alternate Text" style="height: 200px; width: 300px;" />	
         </div>
 
 
         <div id="op10" class="divparte">
-            <h2>Asignar Fecha de Retiro de Equipo</h2>
-            <p>Con esta funcionalidad usted podrá como usuario de Correo Interno, agendar una fecha para ir a retirar el equipo del domicilio
-            del empleado, para ello digígase a la opción "Fechar Retiro de Equipo" que se encuentra dentro del menú "Correo".</p>
-            <img src="img/fechar1.jpg" alt="Alternate Text" />
-
-            <p>Es posible que antes de iniciar el formulario respectivo, aparezca un aviso como este: </p>
-            <img src="img/fechar2.jpg" alt="Alternate Text" />
-            <p>Esto sucede por que existen devoluciones con fecha anterior a la actual, entonces el sitema elabora avisos dirigidos a usted
-            para avisarle que ya se vencio la fecha de ir a retirar un equipo.</p>
-            <p>Para ver los avisos haga click en "Si", de lo contrario haga click en "No" y podrá ver los avisos la próxima vez que 
-            quiera fechar las devoluciones.</p>
-            <p>En caso de que quiera ver los avisos, saldrá la siguiente ventana en la cual podrá hacer click en "Limpiar Avisos" para vaciar la lista de avisos.</p>
-            <img src="img/fechar3.jpg" alt="Alternate Text" />
-
-            <p>Para fechar un retiro, en el formulario "Fechar Devoluciones" podrá elegir la devolución que desea fechar, luego elige la fecha y haga click en "Aplicar".</p>
-            <img src="img/fechar4.jpg" alt="Alternate Text" />
-
-
-        </div>
-
-
-        <div id="op11" class="divparte">
-            <h2>Controlar Devoluciones</h2>
-            <p>Esta parte es para controlar las devoluciones recibidas en deposito informático, al recibir el equipo por parte de correo, usted debe
-            recibir también la orden de retiro, esta es necesaria para conocer el numero de orden a ingresar en el sistema y 
-            los codigos de inventario de los elementos recibidos.</p>
-            <p>Puede hacer click en la Opcion "Controlar Devolucion" del menú "Deposito Informatico".</p>
-            <img src="img/controlar1.jpg" alt="Alternate Text" />
-            <p>Se abrirá un formulario donde tendrá que ingresar el numero de orden de la devolución que aparece en el documento recibido.</p>
-            <img src="img/controlar2.jpg" alt="Alternate Text" />
-            <p>Verá que se cargan los datos de la solicitud inicial de la persona, ahora tendrá que ingresar los elementos recibidos, 
-            para ello ingrese el codigo de inventario del primer elemento en la casilla de texto que dice C.I. y luego seleccione el estado
-            en el que está recibiendo el elemento.</p>
-            <img src="img/controlar3.jpg" alt="Alternate Text" />
-            <p>Observe que se van agregando los elementos en el listado de abajo. Siga asi con los demás elementos recibidos</p>
-            <p>Al finalizar, haga click en el boton "Hacer Control"</p>
-            <img src="img/controlar4.jpg" alt="Alternate Text" />
-            <p>El sistema le notificará si están los elementos completos, en el caso de no estarlo, se generará un 
-            aviso para correo interno solicitando que se acuda al domicilo del empleado a retirar lo faltante.</p>
-            <p>Luego el sistema le indicará si el estado de alguno de los equipos difiere del estado en el que 
-            fueron entregados, de ser así, se generará un aviso para Contaduría, indicando que se debe reclamar el seguro del elemento.</p>
-
-        </div>
-
-        <div id="op12" class="divparte">
-            <h2>Ver Avisos</h2>
-            <p>Se necesita tener accesos de Contaduría para poder ver los avisos.</p>
-            <p>Para ver los avisos haga click en la opcion "Ver Avisos" del menú "Contaduría"</p>
-            <img src="img/avisos1.jpg" alt="Alternate Text" />
-            <p>La ventana que se abre contiene los avisos, para eliminarlos simplemente haga click en "Limpiar Avisos"</p>
-            <img src="img/avisos2.jpg" alt="Ventana Avisos" />
-
-            <p>Listo, los avisos han sido limpiados.</p>
-
-        </div>
-
-
-        <div id="op13" class="divparte">
             <h2>Cambiar Idioma</h2>
-            <p>Esta funcionalidad permite cambiar el idioma del sistema, para ello digirase a la opción "Cambiar Idioma", del menú "Idiomas"</p>
-            <img src="img/idiomas1.jpg" alt="Alternate Text" />
-            <p>Se abrirá una ventana con los idiomas disponibles, seleccione el idioma deseado de los disponibles en el sistema y luego haga click en "Aplicar".</p>
-            <img src="img/idiomas2.jpg" alt="Alternate Text" />
+            <p>Esta funcionalidad permite cambiar el idioma del sistema, para ello digirase a la opción "Cambiar Idioma", del menú "Usuario" o bien si se encuentra en la pantalla de Login la opción "Cambiar Idioma"</p>
+			<dl>
+						</br>
+						<dd><li>Desde Login</li></dd>
+						</br>
+						<dd> <img src="img/idioma-menu.jpg" alt="Alternate Text" /></dd>
+						</br>
+						<dd><li>Desde Menu Principal</li></dd>
+						</br>
+						<dd><img src="img/idioma-menu1.jpg" alt="Alternate Text" /></dd>
+						</br>
+			<dl>
+           
+			<br>
+			
+            <p>Se abrirá una ventana con los idiomas disponibles, seleccione el idioma deseado de los disponibles en el sistema y luego haga click en "Confirmar".</p>
+			<dd><i>Además podra marcar como predeterminado el idioma seleccionado si así lo desea</i></dd>
+			</br>
+            <img src="img/idioma-menu2.jpg" alt="Alternate Text" />
             <p>Listo, verá como la interfaz cambia al idioma seleccionado.</p>
         </div>
+		
+		<div id="op11" class="divparte">
+            <h2>Cerrar Sesión</h2>
+            <p>Esta funcionalidad permite cerrar su sesión en sistema, para ello digirase a la opción "Cerrar Sesión", del menú "Usuario"</p>
+            <img src="img/logout-menu.jpg" alt="Alternate Text" />
+            <p>Se abrirá una ventana donde se va a consultar si esta seguro que desea cerrar sesión.</p>
+			<dd><li>Si selecciona SI, volverá a la etapa de <a href="#op1">"Acceso al Sistema"</a> </li></dd>
+			</br>
+			<dd><li>Si selecciona NO, volverá al Menú Principal</li></dd>
+            </br>
+			<img src="img/logout-menu1.jpg" alt="Alternate Text" />
+        </div>
+    
 
     </div>
 </body>
